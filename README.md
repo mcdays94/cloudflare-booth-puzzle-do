@@ -1,6 +1,28 @@
-# Cloudflare Booth Puzzle (Durable Objects Edition)
+# Cloudflare Booth Puzzle - Durable Objects Edition
 
-This is a migration of the original Workers KV-based project to use Cloudflare Durable Objects for state management. The UI, routes, and API remain the same for compatibility.
+An interactive conference booth puzzle game built with Cloudflare Workers and Durable Objects. This is an enhanced version of the [original KV-based implementation](https://github.com/mcdays94/cloudflare-booth-puzzle), migrated to use Durable Objects for improved consistency, performance, and reliability.
+
+## 🎯 About This Project
+
+This application creates engaging puzzle games for cybersecurity conference booths, featuring:
+- **Interactive puzzle displays** with QR codes for mobile access
+- **Real-time submission tracking** with correctness validation  
+- **Animated spinning winner wheel** for raffle selection
+- **Multi-conference support** with complete data isolation
+- **Professional admin interface** for conference management
+
+**Original Project**: [cloudflare-booth-puzzle](https://github.com/mcdays94/cloudflare-booth-puzzle) (KV-based version)
+
+## 🤖 AI-Assisted Development Disclaimer
+
+This project was developed with significant assistance from AI coding tools (Cascade/Claude). The AI contributed to:
+- Architecture design and Durable Objects migration strategy
+- Code implementation and debugging
+- Documentation generation (including this README)
+- Multi-regional test data creation
+- UI/UX improvements and responsive design
+
+While the core logic, requirements, and testing were human-driven, the AI played a substantial role in the technical implementation and documentation.
 
 ## What Changed
 - **KV -> Durable Objects**: Replaced `PUZZLE_KV` with two Durable Objects:
@@ -70,4 +92,6 @@ This is a migration of the original Workers KV-based project to use Cloudflare D
 
 ---
 
-Original project: https://github.com/mcdays94/cloudflare-booth-puzzle
+## 🔗 Related Projects
+
+- **Original KV Version**: [cloudflare-booth-puzzle](https://github.com/mcdays94/cloudflare-booth-puzzle) - The original implementation using Cloudflare Workers KV storage
