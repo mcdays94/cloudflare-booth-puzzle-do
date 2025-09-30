@@ -13,16 +13,16 @@ This application creates engaging puzzle games for cybersecurity conference boot
 
 **Original Project**: [cloudflare-booth-puzzle](https://github.com/mcdays94/cloudflare-booth-puzzle) (KV-based version)
 
-## 🤖 AI-Assisted Development Disclaimer
+## 🤖 Development Methodology
 
-This project was developed with significant assistance from AI coding tools (Cascade/Claude). The AI contributed to:
+This project was built using Windsurf IDE with Claude as an experiment to evaluate how effective these AI-powered development tools can be for real-world software projects. The AI contributed to:
 - Architecture design and Durable Objects migration strategy
 - Code implementation and debugging
 - Documentation generation (including this README)
 - Multi-regional test data creation
 - UI/UX improvements and responsive design
 
-While the core logic, requirements, and testing were human-driven, the AI played a substantial role in the technical implementation and documentation.
+While the core requirements, logic validation, and testing were human-driven, this served as a practical test of AI coding capabilities in a production-ready application.
 
 ## What Changed
 - **KV -> Durable Objects**: Replaced `PUZZLE_KV` with two Durable Objects:
