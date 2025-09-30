@@ -1,0 +1,27 @@
+name = "cloudflare-booth-puzzle-do"
+main = "src/worker.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+ENVIRONMENT = "production"
+
+[ai]
+binding = "AI"
+
+[build]
+command = ""
+
+routes = [
+  { pattern = "puzzledo.lusostreams.com", custom_domain = true }
+]
+
+[[migrations]]
+tag = "v1"
+new_classes = ["ConferenceDO", "RegistryDO"]
+
+[durable_objects]
+bindings = [
+  { name = "CONFERENCE_DO", class_name = "ConferenceDO" },
+  { name = "REGISTRY", class_name = "RegistryDO" }
+]
