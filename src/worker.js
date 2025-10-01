@@ -1380,7 +1380,7 @@ async function handleAdminUI(env) {
 <body>
     <div class="admin-container">
         <div class="header">
-            <h1>🔧 Cloudflare Booth Puzzle Admin - Durable Objects Version</h1>
+            <h1>🔧 Cloudflare Booth Puzzle Admin - v2.0</h1>
             <p>Manage conferences, puzzles, and winners</p>
         </div>
 
