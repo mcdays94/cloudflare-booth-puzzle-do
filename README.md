@@ -83,7 +83,6 @@ While the core requirements, logic validation, and testing were human-driven, th
 
 ## Compatibility
 - Public/admin APIs preserved, so the original admin UI should work.
-- Uses `puzzledo.lusostreams.com` to avoid conflicts with your existing `puzzle.lusostreams.com` deployment.
 - Environment variables moved to secrets for better security.
 
 ## Security
